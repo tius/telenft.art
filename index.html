@@ -60,19 +60,6 @@
 
 		table { width: 100%; }
 
-		/* --- lists --- */
-
-		.doc-content ul,
-		.doc-content ol {
-			padding-left: 1em;
-			margin: 0.35em 0;
-		}
-
-		.doc-content li {
-			padding-left: 0;
-			margin: 0.1em 0;
-		}
-
 		/* --- image sizing --- */
 
 		img {
@@ -81,6 +68,22 @@
 		}
 	</style>
 	<style type="text/css"> ul.lst-kix_tekrl66ag2n9-4{list-style-type:none}.lst-kix_tekrl66ag2n9-4 > li:before{content:"○  "}.lst-kix_tekrl66ag2n9-5 > li:before{content:"■  "}ul.lst-kix_tekrl66ag2n9-5{list-style-type:none}ul.lst-kix_tekrl66ag2n9-2{list-style-type:none}ul.lst-kix_tekrl66ag2n9-3{list-style-type:none}ul.lst-kix_tekrl66ag2n9-0{list-style-type:none}ul.lst-kix_tekrl66ag2n9-1{list-style-type:none}.lst-kix_tekrl66ag2n9-2 > li:before{content:"■  "}.lst-kix_tekrl66ag2n9-3 > li:before{content:"●  "}.lst-kix_tekrl66ag2n9-6 > li:before{content:"●  "}.lst-kix_tekrl66ag2n9-7 > li:before{content:"○  "}ul.lst-kix_tekrl66ag2n9-8{list-style-type:none}ul.lst-kix_tekrl66ag2n9-6{list-style-type:none}ul.lst-kix_tekrl66ag2n9-7{list-style-type:none}.lst-kix_tekrl66ag2n9-0 > li:before{content:"●  "}.lst-kix_tekrl66ag2n9-1 > li:before{content:"○  "}.lst-kix_tekrl66ag2n9-8 > li:before{content:"■  "}</style>
+	<style>
+		.doc-content ul,
+		.doc-content ol {
+			padding-left: 1em !important;
+			margin: 0.35em 0 !important;
+		}
+
+		.doc-content li {
+			padding-left: 0 !important;
+			margin: 0.1em 0 !important;
+		}
+
+		.doc-content li::marker { font-size: 1em; }
+
+		.doc-content li > *:first-child { margin-left: 0.3em; }
+	</style>
 </head>
 <body style="background-color:#000000">
 
